@@ -37,12 +37,12 @@
     ABContact *contact = [[ABContact allocWithZone:zone] init];
     
     contact.imgData = [_imgData copy];
-    contact.givenName  = _givenName;
-    contact.familyName = _familyName;
-    contact.origanizationName = _origanizationName;
+    contact.givenName  = [_givenName copy];
+    contact.familyName = [_familyName copy];
+    contact.origanizationName = [_origanizationName copy];
     contact.phoneNumLabs = [_phoneNumLabs copy];
     contact.phoneNumbers = [_phoneNumbers copy];
-    contact.identifier   = _identifier;
+    contact.identifier   = [_identifier copy];
     
     return contact;
 }

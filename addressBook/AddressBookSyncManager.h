@@ -14,7 +14,7 @@
 + (instancetype)instance;
 
 @property (nonatomic, readonly) BOOL            authority;     // 通讯录访问权限
-@property (nonatomic, readonly) NSMutableArray *contactMArray; // 通讯录
+@property (nonatomic, readonly, copy) NSMutableArray *contactMArray; // 通讯录
 
 
 - (void)addContact:(ABContact *)contact; // 添加或更改
