@@ -1,18 +1,19 @@
-# addressBook
-通讯录 - 留着自己备用
+## addressBook
+* 通讯录 - 留着自己备用
 
-# PhotoImageFileSizeDemo
-相册中的图片
+
+## PhotoImageFileSizeDemo
+* 相册中的图片
 *  PNG: (IMG_0032.png 660183)
 *      1、(PHImageManager) requestImageData大小，与原始相等 (660183)  -------- 原始大小相等
 *      2、其他经过JPEG/PNG压缩等，与项目工程中的测试结果一致
-*
+* 
 *  JPG:（例：IMG_0020.JPG 1231310，IMG_0021.JPG 2263281）
 *      1、(PHImageManager) requestImageData大小，与原始相等 ( 1481706, 2263281)  -------- 有些相等，有些偏大 (难道是 照片 从iPhone导出到Mac 改变了图片大小)
 *      2、其他经过JPEG/PNG压缩等，与项目工程中的测试结果一致
 
 
-项目工程中的照片
+* 项目工程中的照片
 * PNG:（例：IMG_0016.PNG 603880，IMG_0032.png 660183）
 *      1、直接读取Data数据，会有偏差，测试结果大一些（682893, 702146）
 *      2、经过JPEG-1.0压缩后变小（418869, 343196）
